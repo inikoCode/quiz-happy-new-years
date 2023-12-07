@@ -4,7 +4,7 @@ function Theme({ theme }) {
   return (
     <div>
       <h2>
-        <a href="#">{theme.title}</a>
+        <a href="#">{theme.name}</a>
       </h2>
     </div>
   );
