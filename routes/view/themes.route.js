@@ -1,7 +1,7 @@
 const router = require('express').Router();
 
+const { Theme } = require('../../db/models');
 const ThemesPage = require('../../components/ThemesPage');
-const { Theme } = require('./db/models');
 
 router.get('/', async (req, res) => {
   try {
@@ -15,3 +15,6 @@ router.get('/', async (req, res) => {
     console.log(message);
   }
 });
+
+module.exports = router;
+

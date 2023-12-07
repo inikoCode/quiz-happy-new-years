@@ -6,9 +6,9 @@ function ThemesPage({ themes }) {
   return (
     <Layout>
       <div>
-        {themes.map((themeObj) => {
-          <Theme theme={themeObj} key={themeObj.id} />;
-        })}
+        {themes.map((themeObj) => (
+          <Theme theme={themeObj} key={themeObj.id} />
+        ))}
       </div>
     </Layout>
   );
