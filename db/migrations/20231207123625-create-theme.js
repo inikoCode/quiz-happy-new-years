@@ -22,6 +22,9 @@ module.exports = {
         },
         onDelete: 'cascade',
       },
+      photo: {
+        type: Sequelize.TEXT,
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,

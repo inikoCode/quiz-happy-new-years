@@ -35,6 +35,9 @@ module.exports = (sequelize, DataTypes) => {
         },
         onDelete: 'cascade',
       },
+      photo: {
+        type: DataTypes.TEXT,
+      },
     },
     {
       sequelize,
