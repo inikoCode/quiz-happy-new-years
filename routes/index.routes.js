@@ -8,4 +8,5 @@ router.use('/', mainRoutes);
 router.use('/themes', themesRouter);
 router.use('/registration', registrationRouter);
 
+
 module.exports = router;

@@ -5,7 +5,7 @@ const Theme = require('./Theme');
 function ThemesPage({ themes }) {
   return (
     <Layout>
-      <div>
+      <div className="themeObject">
         {themes.map((themeObj) => (
           <Theme theme={themeObj} key={themeObj.id} />
         ))}

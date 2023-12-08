@@ -8,6 +8,30 @@ body {
   font-family: monospace;
 }
 
+.themeObject {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.oneTheme {
+  display: flex;
+  margin: 20px;
+  width: 800px;
+  height: 100px;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  background-color: lightblue;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.themeLink {
+  text-decoration: none;
+}
+
 .formAddUser {
   margin-top: 150px;
   display: flex;
