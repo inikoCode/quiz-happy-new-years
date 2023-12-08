@@ -10,7 +10,7 @@ module.exports = {
           name: '1',
           description:
             "Какой актер сыграл главную роль в фильме 'Один дома', популярном новогоднем фильме 1990-х?(PS.напиши Фамилию)",
-          answer: 'Калкин.',
+          answer: 'Калкин',
           theme_id: 1,
           createdAt: new Date(),
           updatedAt: new Date(),
@@ -83,7 +83,7 @@ module.exports = {
           name: '6',
           description:
             'Какой символ часто украшает новогоднюю елку в качестве благоприятного талисмана?',
-          answer: 'Звезда.',
+          answer: 'Звезда',
           theme_id: 2,
           createdAt: new Date(),
           updatedAt: new Date(),
