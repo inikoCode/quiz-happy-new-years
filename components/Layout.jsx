@@ -7,6 +7,7 @@ function Layout({ title, children }) {
     <html lang="ru">
       <head>
         <title>{title}</title>
+        <link rel="stylesheet" href="/styles/style.css" />
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -18,7 +19,7 @@ function Layout({ title, children }) {
           integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
           crossOrigin="anonymous"
         />
-        <link rel="stelsheet" href="/style.css" />
+        <script defer src="/scripts/addUser.js" />
       </head>
       <body>
         <Navbar />

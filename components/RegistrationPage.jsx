@@ -4,11 +4,29 @@ const Layout = require('./Layout');
 function RegistrationPage() {
   return (
     <Layout>
-      <form className="formAddStudents">
-        <input placeholder="имя" type="text" name="name" />
-        <input placeholder="номер телефона" type="bigint" name="phoneNumber" />
-        <input placeholder="фотография" type="text" name="photo" />
-        <button type="submit">Добавить</button>
+      <form className="formAddUser">
+        <h2>Регистрация</h2>
+        <input
+          name="name"
+          className="inputRegistration"
+          placeholder="имя"
+          type="text"
+        />
+        <input
+          name="email"
+          className="inputRegistration"
+          placeholder="email"
+          type="email"
+        />
+        <input
+          name="password"
+          className="inputRegistration"
+          placeholder="password"
+          type="password"
+        />
+        <button className="inputRegaButton" type="submit">
+          Добавить
+        </button>
       </form>
     </Layout>
   );
