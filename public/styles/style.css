@@ -32,6 +32,15 @@ body {
   text-decoration: none;
 }
 
+.themeListUl {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
 .formAddUser {
   margin-top: 150px;
   display: flex;

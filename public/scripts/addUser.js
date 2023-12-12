@@ -18,8 +18,8 @@ if (addUserForm) {
     if (res.message === 'success') {
       window.location.assign('/themes');
     }
-
+    
     // console.log(res);
+    // console.log(addUserForm);
   });
 }
-console.log(addUserForm);
