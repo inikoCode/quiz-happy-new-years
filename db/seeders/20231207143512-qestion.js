@@ -10,7 +10,7 @@ module.exports = {
             "Какой актер сыграл главную роль в фильме 'Один дома', популярном новогоднем фильме 1990-х?(PS.напиши Фамилию)",
           answer: 'Калкин',
           theme_id: 1,
-          photo: 'https://b1.filmpro.ru/c/259929.700xp.jpg',
+          photo: 'https://www.fonstola.ru/pic/202010/800x600/fonstola.ru_411060.jpg',
           createdAt: new Date(),
           updatedAt: new Date(),
         },

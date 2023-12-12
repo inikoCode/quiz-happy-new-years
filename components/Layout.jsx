@@ -20,6 +20,7 @@ function Layout({ title, children }) {
           crossOrigin="anonymous"
         />
         <script defer src="/scripts/addUser.js" />
+        <script defer src="/scripts/addAnswer.js" />
       </head>
       <body>
         <Navbar />

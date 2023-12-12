@@ -7,7 +7,7 @@ function ThemesPage({ themes, user }) {
     <Layout>
       <div>
         {user && user.name ? (
-          <div>
+          <div className='themeListUl'>
             <h2>Привет, мой хороший {user.name}</h2>
             {themes.map((themeObj) => (
               <Theme theme={themeObj} key={themeObj.id}  />
